@@ -80,3 +80,4 @@ lint/tmp/
 # lint/reports/
 
 local.properties
+project.xml
