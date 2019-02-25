@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "801281397798",
+    "firebase_url": "https://credenc-184410.firebaseio.com",
+    "project_id": "credenc-184410",
+    "storage_bucket": "credenc-184410.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801281397798:android:21e64a7863f242c3",
+        "android_client_info": {
+          "package_name": "com.credencapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801281397798-5bept9kg9ec7b2sql897d6htcesa45ut.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "801281397798-8sibrlcrlvbch7e4nl82tsinjmfvjaj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.credencapp",
+            "certificate_hash": "7894ad2680347e2f9572894abda375e333982aed"
+          }
+        },
+        {
+          "client_id": "801281397798-hjs8ucnn7n3dosug7v97skv4o6lvq0sm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "801281397798-2v5cgp8o0i9r9hk9udn4gr7vj4oc95tj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMx4jkZoHFihnntb5uzO4Cdb7emG6qYTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801281397798-5bept9kg9ec7b2sql897d6htcesa45ut.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "801281397798-rfahh9d25t84sd6go9lc8fht5cmt20ii.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.credencapp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

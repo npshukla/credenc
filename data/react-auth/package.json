@@ -1,0 +1,123 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-oauth",
+        "scope": null,
+        "escapedName": "react-native-oauth",
+        "name": "react-native-oauth",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\xampp\\htdocs\\APP1\\new\\credencApp"
+    ]
+  ],
+  "_from": "react-native-oauth@latest",
+  "_id": "react-native-oauth@2.2.0",
+  "_inCache": true,
+  "_location": "/react-native-oauth",
+  "_nodeVersion": "8.1.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-native-oauth-2.2.0.tgz_1502127517024_0.6924652175512165"
+  },
+  "_npmUser": {
+    "name": "auser",
+    "email": "arilerner@mac.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-oauth",
+    "scope": null,
+    "escapedName": "react-native-oauth",
+    "name": "react-native-oauth",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-oauth/-/react-native-oauth-2.2.0.tgz",
+  "_shasum": "8aa7fad344b22cd29f24a4c3385244684dbcbe9e",
+  "_shrinkwrap": null,
+  "_spec": "react-native-oauth",
+  "_where": "C:\\xampp\\htdocs\\APP1\\new\\credencApp",
+  "author": {
+    "name": "Ari Lerner",
+    "email": "ari@fullstack.io",
+    "url": "https://fullstackreact.com"
+  },
+  "bugs": {
+    "url": "https://github.com/fullstackreact/react-native-oauth/issues"
+  },
+  "dependencies": {
+    "invariant": "^2.2.1",
+    "valib": "^2.0.0"
+  },
+  "description": "An oauth manager for dealing with the complexities of oauth",
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-VrkZOa0Oqrxk2WVb6LijlpnWtOmSyGD/Sj58rQ72OTg5ysUhKfSwSjl9eg2dwNqPhBf0SMcIr/KL6Y0ocEn+ZQ==",
+    "shasum": "8aa7fad344b22cd29f24a4c3385244684dbcbe9e",
+    "tarball": "https://registry.npmjs.org/react-native-oauth/-/react-native-oauth-2.2.0.tgz"
+  },
+  "gitHead": "bb2e8f62bf9dabeed10f35ec8d34b4fbbdd59900",
+  "homepage": "https://github.com/fullstackreact/react-native-oauth#readme",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-native-firestack",
+    "firestack",
+    "firebase",
+    "oauth",
+    "twitter"
+  ],
+  "license": "ISC",
+  "main": "./react-native-oauth.js",
+  "maintainers": [
+    {
+      "name": "auser",
+      "email": "arilerner@mac.com"
+    }
+  ],
+  "name": "react-native-oauth",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackreact/react-native-oauth.git"
+  },
+  "rnpm": {
+    "commands": {
+      "prelink": "node_modules/react-native-oauth/bin/prepare.sh",
+      "postlink": "node_modules/react-native-oauth/bin/cocoapods.sh"
+    },
+    "ios": {
+      "project": "ios/OAuthManager.xcodeproj"
+    },
+    "android": {
+      "packageInstance": "new OAuthManagerPackage()"
+    }
+  },
+  "scripts": {
+    "build": "babel --source-maps=true --out-dir=dist .",
+    "dev": "npm run compile -- --watch",
+    "lint": "eslint ./src",
+    "publish_pages": "gh-pages -d public/",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "mocha"
+  },
+  "version": "2.2.0"
+}

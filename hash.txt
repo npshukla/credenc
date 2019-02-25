@@ -1,0 +1,71 @@
+Keystore type: JKS
+Keystore provider: SUN
+
+Your keystore contains 2 entries
+
+Alias name: credenc
+Creation date: 11 Oct, 2017
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Credenc, OU=Credenc Tech, O=Credenc, L=gurgaon, ST=haryana, C=in
+Issuer: CN=Credenc, OU=Credenc Tech, O=Credenc, L=gurgaon, ST=haryana, C=in
+Serial number: 429734ba
+Valid from: Wed Oct 11 18:50:37 IST 2017 until: Sun Feb 26 18:50:37 IST 2045
+Certificate fingerprints:
+	 MD5:  33:C6:DB:26:D4:5B:2C:1F:A8:C3:63:85:85:02:21:04
+	 SHA1: D6:C0:4D:8B:4A:23:12:41:52:C7:3B:57:06:C9:1A:ED:F1:48:FF:C1
+	 SHA256: 60:34:55:AA:E2:68:F5:C5:DB:31:CF:AE:60:62:54:E8:76:3F:D7:60:6B:AC:F5:20:B3:19:62:19:97:58:9F:13
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 46 0A D1 1F 9A 68 BE 8C   95 28 55 5D F0 DA 34 79  F....h...(U]..4y
+0010: 9D 35 B5 60                                        .5.`
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: credencapp
+Creation date: 12 Nov, 2017
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=credenc tech, OU=information technology, O=credenc tech, L=gurgaon, ST=haryana, C=in
+Issuer: CN=credenc tech, OU=information technology, O=credenc tech, L=gurgaon, ST=haryana, C=in
+Serial number: 68889239
+Valid from: Sun Nov 12 12:51:17 IST 2017 until: Thu Nov 06 12:51:17 IST 2042
+Certificate fingerprints:
+	 MD5:  00:09:45:D1:0E:20:ED:F1:23:D5:8A:94:45:36:A4:65
+	 SHA1: 78:94:AD:26:80:34:7E:2F:95:72:89:4A:BD:A3:75:E3:33:98:2A:ED
+	 SHA256: 87:EB:31:9E:09:DD:17:1D:8A:BC:3F:41:8C:FA:D6:DA:9F:EF:54:6D:2D:32:0A:B9:85:23:1F:EA:84:AC:93:63
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 62 88 A4 89 21 46 DA B7   EB E1 12 6E 81 AE 96 8E  b...!F.....n....
+0010: 7C 9A 76 4F                                        ..vO
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+

@@ -1,0 +1,82 @@
+Index: lib/fixtures/microsoft.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/fixtures/microsoft.js	(revision )
++++ lib/fixtures/microsoft.js	(revision )
+@@ -0,0 +1,59 @@
++/* eslint max-len: "off" */
++
++const AUTH_URL = `https://login.live.com/oauth20_authorize.srf?
++  scope=wl.basic&
++  redirect_uri=REDIRECT_URI&
++  response_type=token&
++  client_id=CLIENT_ID&
++`.replace(/\s+/g, '');
++
++const DANCE_CALLBACK = `?
++  code=CODE123&
++  token_type=Bearer&
++  expires_in=3600
++`.replace(/\s+/g, '');
++
++const TOKEN_URL = 'https://www.googleapis.com/oauth2/v4/token';
++
++const TOKEN_OPTS = {
++  method: 'POST',
++  headers: {
++    'Content-Type': 'application/x-www-form-urlencoded',
++  },
++  body: 'client_id=APPID123&code=CODE123&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback',
++};
++
++const TOKEN_RESPONSE = {
++  access_token: 'ACCESSTOKEN123',
++  expires_in: 3920,
++  token_type: 'Bearer',
++  refresh_token: 'REFRESHTOKEN123',
++};
++
++const USER_INFO_URL = 'https://www.googleapis.com/oauth2/v2/userinfo';
++
++const USER_INFO_OPTS = {
++  headers: {
++    Authorization: 'Bearer ACCESSTOKEN123',
++  },
++};
++
++const USER_INFO_RESPONSE = {
++  id: 'USER123',
++  email: 'foo@gmail.com',
++  verified_email: true,
++  name: 'foo',
++  given_name: 'Foo',
++  family_name: 'Bar',
++  link: 'https://plus.google.com/1234567890',
++  picture: 'https://lh4.googleusercontent.com/ABC123/photo.jpg',
++  gender: 'male',
++  locale: 'en',
++};
++
++export const DANCE = [AUTH_URL, DANCE_CALLBACK];
++
++export const REQUESTS = [
++  [TOKEN_URL, TOKEN_OPTS, TOKEN_RESPONSE, 'verify token'],
++  [USER_INFO_URL, USER_INFO_OPTS, USER_INFO_RESPONSE, 'get user info'],
++];
+Index: index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.js	(revision a4b1b2e3cc2239ab04232d140cbafb6d81b3199d)
++++ index.js	(revision )
+@@ -1,6 +1,6 @@
+ /**
+  * Login with various social API's.
+- * Including: Google, Twitter, Facebook, Instagram, Tumblr & LinkedIn.
++ * Including: Google, Twitter, Facebook, Tumblr & GitHub.
+  */
+ 
+ import { __ } from 'ramda';

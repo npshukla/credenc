@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">credencApp</string>
+    <string name="fb_app_id">1389779351166440</string>
+    <string name="fb_login_protocol_scheme">fb1389779351166440</string>
+</resources>

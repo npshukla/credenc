@@ -1,0 +1,40 @@
+keytool error: java.io.IOException: Keystore was tampered with, or password was incorrect
+java.io.IOException: Keystore was tampered with, or password was incorrect
+	at sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:780)
+	at sun.security.provider.JavaKeyStore$JKS.engineLoad(JavaKeyStore.java:56)
+	at sun.security.provider.KeyStoreDelegator.engineLoad(KeyStoreDelegator.java:224)
+	at sun.security.provider.JavaKeyStore$DualFormatJKS.engineLoad(JavaKeyStore.java:70)
+	at java.security.KeyStore.load(KeyStore.java:1445)
+	at sun.security.tools.keytool.Main.doCommands(Main.java:933)
+	at sun.security.tools.keytool.Main.run(Main.java:366)
+	at sun.security.tools.keytool.Main.main(Main.java:359)
+Caused by: java.security.UnrecoverableKeyException: Password verification failed
+	at sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:778)
+	... 7 more
+Keystore type: JKS
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: androiddebugkey
+Creation date: 12 Nov, 2017
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: C=US, O=Android, CN=Android Debug
+Issuer: C=US, O=Android, CN=Android Debug
+Serial number: 1
+Valid from: Sun Nov 12 20:08:01 IST 2017 until: Tue Nov 05 20:08:01 IST 2047
+Certificate fingerprints:
+	 MD5:  4C:9F:9C:7D:19:AC:C6:DC:01:31:31:FA:E4:9D:82:53
+	 SHA1: 7C:96:24:DE:42:79:BC:58:A0:91:53:80:3B:F3:74:37:27:1B:EA:36
+	 SHA256: 37:30:CD:4A:67:AA:E7:48:E7:35:5B:E7:9C:34:89:2E:72:56:8A:26:E6:0A:40:22:65:7D:B1:B2:8A:36:69:17
+Signature algorithm name: SHA1withRSA
+Subject Public Key Algorithm: 1024-bit RSA key
+Version: 1
+
+
+*******************************************
+*******************************************
+
+
