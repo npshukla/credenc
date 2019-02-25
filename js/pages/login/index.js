@@ -741,7 +741,7 @@ async saveData(key,value)
 {
  this.setState({ applicant_contact_no_unvalid: false });
  
- 
+ console.log("hello shivani", + value)
  if(key == 'applicant_contact_no'){
  this.setState({"applicant_contact_no": value}); 
 
