@@ -1180,21 +1180,7 @@ var loginData = {applicant_contact_no:applicant_contact_no};
                     </Button>
                 
                 </View>
-                
-                <View style={styles.loginbuttonview}>
-          <Button rounded block title="Facebook"
-          onPress={this._facebookData} iconLeft>
-                   <Icon name='logo-facebook' />
-                      <Text style={styles.LoginText}>Login With Facebook</Text>
-                    </Button>
-                
-                </View>
-                
-                
-                
 
-          
-         
           </Content>
 			</Container>
       </DismissKeyboard>

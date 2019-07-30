@@ -81,3 +81,7 @@ lint/tmp/
 
 local.properties
 project.xml
+build/
+*.iml
+android/gradle.properties
+.idea/

@@ -104,8 +104,9 @@ aaptOptions{
     defaultConfig {
         applicationId "com.credencapp"
         minSdkVersion 16
-        targetSdkVersion 22
-        versionCode 9
+        targetSdkVersion 26
+        versionCode 13
+        multiDexEnabled true
         versionName "1.4"
         ndk {
             abiFilters "armeabi-v7a", "x86"
@@ -138,8 +139,7 @@ signingConfigs {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-
-          signingConfig signingConfigs.release
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release

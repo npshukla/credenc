@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
    xmlns:tools="http://schemas.android.com/tools"
     package="com.credencapp"
-    android:versionCode="9"
+    android:versionCode="11"
     android:versionName="1.4">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,7 +11,7 @@
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-<uses-permission android:name="android.permission.RECEIVE_SMS" />
+<uses-permission tools:node="remove" android:name="android.permission.RECEIVE_SMS" />
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="22" />
